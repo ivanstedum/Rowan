@@ -6,7 +6,20 @@ dist/
 wheels/
 *.egg-info
 
-# env
+
+# Environment files
 .env
+.env.local
+.env.dev
+.env.prod
+
 # Virtual environments
 .venv
+
+# VectorDB data
+vectordb/
+chromadb_data/
+
+# IDE
+.DS_Store
+.vscode/

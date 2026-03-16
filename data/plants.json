@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Tomato",
+    "sun_requirement": "full sun",
+    "hardiness_zones": "3-11",
+    "water_needs": "moderate",
+    "description": "A summer favorite vegetable that thrives with plenty of direct sunlight. Tomatoes need at least 8 hours of direct sun daily to produce sweet, ripe fruit. They love heat and warmth, making them perfect for sunny garden locations. Determinate varieties can grow in containers while indeterminate types need support."
+  },
+  {
+    "name": "Lettuce",
+    "sun_requirement": "partial shade",
+    "hardiness_zones": "2-11",
+    "water_needs": "high",
+    "description": "A cool season crop that prefers afternoon shade and partial sunlight. Lettuce thrives with 3-6 hours of indirect light and bolts quickly in full sun. Best grown in spring and fall when temperatures are mild. Loves consistent moisture and stays tender in shaded conditions."
+  },
+  {
+    "name": "Basil",
+    "sun_requirement": "full sun",
+    "hardiness_zones": "10-11",
+    "water_needs": "low",
+    "description": "An herb that loves heat and sunlight, thriving best with at least 6-8 hours of direct sun daily. Basil grows vigorously in full sun locations and produces abundant aromatic leaves. Perfect for sunny windowsills and garden beds. More sunlight means more essential oils and better flavor."
+  },
+  {
+    "name": "Bell Pepper",
+    "sun_requirement": "full sun",
+    "hardiness_zones": "3-11",
+    "water_needs": "moderate",
+    "description": "A warm season vegetable that requires abundant sunlight, ideally 8 hours or more of direct sun daily. Bell peppers produce more fruit and sweeter flavors with maximum sun exposure. They need consistent warmth and light conditions to thrive and set fruit properly."
+  }
+]

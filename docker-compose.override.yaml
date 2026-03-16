@@ -1,0 +1,10 @@
+version: '3.9'
+
+# [Dev overrides - automatically loaded. Adds live code reload and exposed ports.]
+
+services:
+  app:
+    volumes:
+      - .:/app
+      # [Mount current directory into container for live code reload]
+    command: uv run python main.py

@@ -1,0 +1,34 @@
+version: '3.9'
+
+# [Prod overrides - explicitly loaded. Adds resource limits and immutable config.]
+# [Load with: docker compose -f docker-compose.yaml -f docker-compose.prod.yaml up]
+
+services:
+  app:
+    # [NO volumes - immutable container]
+    # [NO ports exposed - use reverse proxy/load balancer]
+    command: uv run python main.py
+    restart: always
+    deploy:
+      # [Resource constraints for container orchestration]
+      replicas: 1
+      resources:
+        limits:
+          cpus: '1'
+          memory: 512M
+        reservations:
+          cpus: '0.5'
+          memory: 256M
+
+  chromadb:
+    # [Database resource limits]
+    restart: always
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: '2'
+          memory: 1G
+        reservations:
+          cpus: '1'
+          memory: 512M
